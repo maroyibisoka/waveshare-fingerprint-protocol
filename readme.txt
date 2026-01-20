@@ -26,3 +26,10 @@ the command reach the sensor and the task is performed.
 So it seems like theres is an issues with the rapsberry because when we connect
 sensor to an arduino the packet (or command) always reach the sensor without 
 issues.
+
+The code used to communicate with the fingerprint sensor is founded in file
+    - protocol.c
+
+And the code used to send loopback data from tx to rx pins of the raspberry pi 5
+to reset them (if can use the word) is founded in file:
+    - uart_loopback.c
